@@ -35,7 +35,30 @@ A webpage generator that displays a team's basic info so that you have quick acc
 <img src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white"/> <img src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
 
 ## Usage
-TBC 
+Once installed:
+* Run the Project Team Generator using:
+```
+   node app.js
+```
+Below is the folder structure with folder descriptions:
+```
+lib/           // classes and helper code
+output/        // rendered output
+templates/     // HTML template(s)
+test/          // jest tests
+app.js
+```
+
+* When prompted, select from: 
+    * Manager, to enter manager details
+    * Engineer, to enter engineer details
+    * Intern, to enter inter details
+    * Team complete (exit), this will exit the CLI prompt to generate the HTML
+* Check the "output" folder for generated team.
+
+### Demonstration
+Click to view the video:
+[![Video](./Assets/Project_Team_Generator_Demo.png)](https://drive.google.com/file/d/1i8v5VGjM_Tf2uhUgM3Bpje6rdlCbiOz-/view)
 
 ## License
  
@@ -47,7 +70,13 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
 
 ## Tests
-TBC
+Complete the following to complete the jest tests.
+
+```
+npm run test
+```
+
+<img src="./Assets/npm-run-test.png" alt="npm run test" vertical-align="text-top" style="vertical-align:top"> 
 
 ## Questions
     
