@@ -22,6 +22,7 @@ A webpage generator that displays a team's basic info so that you have quick acc
 3. Install the dependancies.<br />
     ```
     npm install inquirer
+    npm install jest
    ```
 4. You are done for the setup, run the readme generator using 
     ```
