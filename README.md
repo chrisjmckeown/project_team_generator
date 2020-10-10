@@ -19,15 +19,21 @@ A webpage generator that displays a team's basic info so that you have quick acc
 ## Installation
 1. Download and install [Node.js](http://nodejs.org/) (that will install npm as well)
 2. Clone this repo
-3. Install the dependancies.<br />
+3. Install the dependancies, either:
+    ```
+    npm install 
+    ```
+    or
+
     ```
     npm install inquirer
     npm install jest
-   ```
-4. You are done for the setup, run the readme generator using 
+    npm install valid-url
+    ```
+4. You are done for the setup, run the readme generator using :
     ```
     node index.js
-   ``` 
+    ``` 
 
 ### Technologies Utilized
 ![GitHub language count](https://img.shields.io/github/languages/count/chrisjmckeown/project_team_generator?style=flat-square)![GitHub top language](https://img.shields.io/github/languages/top/chrisjmckeown/project_team_generator?style=flat-square)
@@ -58,6 +64,7 @@ app.js
 
 ### Demonstration
 Click to view the video:
+
 [![Video](./Assets/Project_Team_Generator_Demo.png)](https://drive.google.com/file/d/1i8v5VGjM_Tf2uhUgM3Bpje6rdlCbiOz-/view)
 
 ## License
