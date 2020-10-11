@@ -64,6 +64,7 @@ app.js
 
 ### Demonstration
 Click to view the video:
+https://chrisjmckeown.github.io/project_team_generator/
 
 [![Video](./Assets/Project_Team_Generator_Demo.png)](https://drive.google.com/file/d/1Tpjjg77FdM1ZBVrWrFHGbx_14C7p-rxx/view)
 
