@@ -1,0 +1,84 @@
+/********** Colour reference chart*********
+*************************** colour *******/ 
+:root {
+    --blue: rgb(78, 125, 155);
+    --green: rgb(79,173,67);
+    --title: rgb(195, 110, 41);
+    --greydark: rgb(167,120,120);
+    --greymedium: rgb(150, 167, 150);
+    --greylight: rgb(192,192,167);
+  }
+
+/* setting body background */
+html,body{
+    color: black;
+    background: rgb(235, 235, 235) ;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: 'Muli', sans-serif;
+}
+.jumbotron{
+    padding: 35px;
+    background:var(--blue);
+    height: 140px;
+    color: white;    
+}
+.jumbotron h1{
+    font-size: 4rem;
+    font-weight: 600;
+}
+.card{
+    margin: 20px;
+    min-width: 250px
+}
+.team-area{
+    display: flex;
+    flex-wrap: wrap;
+}
+.manager .card-header{
+    background-color:var(--greydark);
+}
+.break{
+    flex-basis: 100%;
+    width: 0;
+    border-top: 5px dotted var(--green);
+}
+.engineer .card-header{
+    background-color:var(--greymedium);
+}
+.intern .card-header{
+    background-color:var(--greylight);
+}
+.container{
+    margin-bottom: 50px;
+}
+/* styling the footer */
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+
+/* setting footer styles */
+.footer .copyright-social-media {
+    margin: 0 auto;
+    height: 40px;
+    background-color:rgb(78, 125, 155);
+    display: flex;
+    justify-content: center; /* For horizontal alignment */
+    align-items: center; /* For vertical alignment */
+}
+  
+/* social media div */
+.footer, .footer .copyright-social-media a{
+    font-size: 20px;
+    color: white;
+}
+.footer .copyright-social-media a{
+    padding-left: 10px;
+    text-decoration: none;
+}
+.footer .copyright-social-media a:hover{
+    color: var(--green);
+}
